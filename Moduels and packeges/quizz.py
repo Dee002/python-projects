@@ -25,10 +25,12 @@ def more_than_n(lst, item, n):
 
 print(more_than_n([2, 4, 6, 2, 3, 2, 1, 2], 2, 3))
 
+##Challange number 4
+def append_size(lst):
+    lst.append(len(lst))
+    return lst
 
-
-
-
+print(append_size([23, 42, 108])
 
 
 
