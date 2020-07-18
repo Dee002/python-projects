@@ -41,12 +41,21 @@ def combine_sort(lst1, lst2):
       
 print(combine_sort([4, 10, 2, 5], [-10, 2, 5, 10]))
       
-      
-      
-    
+ #You have a list of dog breeds you can adopt, dog_breeds_available_for_adoption. 
+ #Using a for loop, iterate through the dog_breeds_available_for_adoption list and print out each dog breed.
+#Inside your for loop, after you print each dog breed, check if it is equal to dog_breed_I_want. If so, print
+#"They have the dog I want!"dog_breeds_available_for_adoption = ['french_bulldog', 'dalmatian', 'shihtzu', 'poodle', 'collie']
+#Add a break statement when your loop has found dog_breed_I_want, so that the rest of the list does not need 
+#to be checked.     
 
 
+dog_breeds_available_for_adoption = ['french_bulldog', 'dalmatian', 'shihtzu', 'poodle', 'collie']
+dog_breed_I_want = 'dalmatian'
 
-
+for dog in dog_breeds_available_for_adoption:
+  print(dog)
+  if dog == dog_breed_I_want:
+    print("They have the dog I want!")
+    break
 
 
